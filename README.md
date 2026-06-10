@@ -110,10 +110,10 @@ Nearest matches in training data:
 
 ```
 code-language-detector/
-├── code_language_detector.py   # Main application
-├── dataset.csv                 # Training data (you provide)
+├── KNN_language_classifier.py   # Main application
+├── code_dataset.csv                 # Training data (you provide)
 ├── README.md                   # This file
-└── .gitignore                  # Python ignore patterns
+└── License                  
 ```
 
 ## Configuration
