@@ -1,0 +1,184 @@
+code,language
+"def hello_world(): print('Hello World')",Python
+"for i in range(10): print(i)",Python
+"if x > 0: return x else: return -x",Python
+"class MyClass: def __init__(self): self.value = 0",Python
+"import math; print(math.sqrt(16))",Python
+"while count < 5: count += 1",Python
+"def add(a,b): return a + b",Python
+"list comprehension: [x*2 for x in range(5)]",Python
+"try: result = 10/0 except: print('error')",Python
+"with open('file.txt') as f: content = f.read()",Python
+"lambda x: x**2",Python
+"assert 5 > 2, 'False'",Python
+"def factorial(n): return 1 if n <= 1 else n * factorial(n-1)",Python
+"arr = [1,2,3]; arr.append(4)",Python
+"dictionary = {'key': 'value'}",Python
+"for key,value in dict.items(): print(key,value)",Python
+"x = True and False or True",Python
+"def decorator(func): def wrapper(): return func()",Python
+"yield from range(5)",Python
+"isinstance(5, int)",Python
+"map(str, [1,2,3])",Python
+"filter(lambda x: x>0, [-1,2,-3,4])",Python
+"zip([1,2], ['a','b'])",Python
+"enumerate(['a','b','c'])",Python
+"set([1,2,2,3])",Python
+"frozenset([1,2,3])",Python
+"tuple(range(5))",Python
+"list('hello')",Python
+"';'.join(['a','b','c'])",Python
+"'hello world'.split()",Python
+"'HELLO'.lower()",Python
+"'hello'.upper()",Python
+"'  trim  '.strip()",Python
+"'hello'.replace('h','j')",Python
+"'hello world'.startswith('hello')",Python
+"'{0} {1}'.format('hello','world')",Python
+"f'value={x}'",Python
+"len([1,2,3])",Python
+"max([1,5,3])",Python
+"min([1,5,3])",Python
+"sum([1,2,3])",Python
+"sorted([3,1,2])",Python
+"reversed([1,2,3])",Python
+"all([True, False])",Python
+"any([True, False])",Python
+"abs(-5)",Python
+"round(3.7)",Python
+"pow(2,3)",Python
+"divmod(10,3)",Python
+"ord('A')",Python
+"chr(65)",Python
+"bin(5)",Python
+"hex(255)",Python
+"oct(8)",Python
+"type(5)",Python
+"id('hello')",Python
+"hash('world')",Python
+"repr('hello')",Python
+"eval('5+3')",Python
+"exec('print(5)')",Python
+"#include <iostream>\nusing namespace std;\nint main() { cout << 'Hello'; return 0; }",Cpp
+"#include <vector>\nvector<int> v = {1,2,3};",Cpp
+"class MyClass { public: int x; };",Cpp
+"int add(int a, int b) { return a + b; }",Cpp
+"for (int i = 0; i < 10; i++) { cout << i; }",Cpp
+"if (x > 0) { return x; } else { return -x; }",Cpp
+"while (count < 5) { count++; }",Cpp
+"int* ptr = new int(5); delete ptr;",Cpp
+"try { throw 5; } catch(int e) { cout << e; }",Cpp
+"vector<int>::iterator it = v.begin();",Cpp
+"template<typename T>\nT add(T a, T b) { return a + b; }",Cpp
+"namespace MyNamespace { int x = 5; }",Cpp
+"struct Point { int x; int y; };",Cpp
+"enum Color { RED, GREEN, BLUE };",Cpp
+"int arr[5] = {1,2,3,4,5};",Cpp
+"char str[] = 'hello';",Cpp
+"string s = 'hello world';",Cpp
+"cout << 'Hello' << endl;",Cpp
+"cin >> x;",Cpp
+"cerr << 'Error occurred';",Cpp
+"#define PI 3.14159",Cpp
+"#ifndef HEADER_H\n#define HEADER_H\n#endif",Cpp
+"int& ref = x;",Cpp
+"const int MAX = 100;",Cpp
+"static int count = 0;",Cpp
+"virtual void draw() = 0;",Cpp
+"override keyword usage",Cpp
+"final class implementation",Cpp
+"unique_ptr<int> ptr(new int(5));",Cpp
+"shared_ptr<int> ptr1 = make_shared<int>(5);",Cpp
+"lambda function: [](int x) { return x*2; }",Cpp
+"auto result = 5 + 3.14;",Cpp
+"decltype(x) y = x;",Cpp
+"static_cast<double>(5)/2",Cpp
+"dynamic_cast<Derived*>(basePtr)",Cpp
+"const_cast<char*>(str)",Cpp
+"reinterpret_cast<int*>(ptr)",Cpp
+"new and delete operators",Cpp
+"this->x = x;",Cpp
+"operator overloading: +",Cpp
+"friend function declaration",Cpp
+"inheritance: class Dog : public Animal",Cpp
+"polymorphism with virtual functions",Cpp
+"abstract base class",Cpp
+"constructor and destructor",Cpp
+"copy constructor: MyClass(const MyClass& other)",Cpp
+"move constructor: MyClass(MyClass&& other)",Cpp
+"assignment operator overloading",Cpp
+"function overloading: add(int,int) and add(double,double)",Cpp
+"default arguments: void func(int x = 0)",Cpp
+"inline function: inline int square(int x)",Cpp
+"recursive function: factorial",Cpp
+"friend class declaration",Cpp
+"static member function",Cpp
+"const member function: int get() const",Cpp
+"mutable keyword usage",Cpp
+"volatile keyword for variables",Cpp
+"extern keyword for global variables",Cpp
+"register keyword (deprecated)",Cpp
+"typedef int Integer;",Cpp
+"using namespace std;",Cpp
+"auto pointers and references",Cpp
+"range-based for loop: for (int x : arr)",Cpp
+"nullptr keyword",Cpp
+"<div>Hello World</div>",HTML
+"<h1>Title</h1>\n<p>Paragraph</p>",HTML
+"<a href='https://example.com'>Click Here</a>",HTML
+"<img src='image.jpg' alt='Description'>",HTML
+"<ul>\n<li>Item 1</li>\n<li>Item 2</li>\n</ul>",HTML
+"<table>\n<tr>\n<td>Cell</td>\n</tr>\n</table>",HTML
+"<form action='/submit'>\n<input type='text'>\n</form>",HTML
+"<div class='container'>\n<span>Text</span>\n</div>",HTML
+"<header>\n<nav>Menu</nav>\n</header>",HTML
+"<footer>Copyright 2024</footer>",HTML
+"<section>\n<article>Content</article>\n</section>",HTML
+"<aside>Sidebar content</aside>",HTML
+"<main>Main content area</main>",HTML
+"<button onclick='alert('Hi')'>Click Me</button>",HTML
+"<input type='text' placeholder='Enter name'>",HTML
+"<select>\n<option>Option 1</option>\n</select>",HTML
+"<textarea rows='4' cols='50'></textarea>",HTML
+"<label for='name'>Name:</label>",HTML
+"<fieldset>\n<legend>Personal Info</legend>\n</fieldset>",HTML
+"<iframe src='page.html'></iframe>",HTML
+"<canvas id='myCanvas'></canvas>",HTML
+"<svg width='100' height='100'>\n<circle cx='50' cy='50' r='40'/>\n</svg>",HTML
+"<video controls>\n<source src='video.mp4'>\n</video>",HTML
+"<audio controls>\n<source src='audio.mp3'>\n</audio>",HTML
+"<link rel='stylesheet' href='style.css'>",HTML
+"<script src='script.js'></script>",HTML
+"<style>\nbody { color: red; }\n</style>",HTML
+"<meta charset='UTF-8'>",HTML
+"<title>Webpage Title</title>",HTML
+"<html lang='en'>\n<head>\n</head>\n<body>\n</body>\n</html>",HTML
+"<div id='header'>Header Content</div>",HTML
+"<span class='highlight'>Highlighted text</span>",HTML
+"<strong>Bold text</strong>",HTML
+"<em>Italic text</em>",HTML
+"<u>Underlined text</u>",HTML
+"<br> line break",HTML
+"<hr> horizontal rule",HTML
+"<!-- This is a comment -->",HTML
+"<ol>\n<li>First</li>\n<li>Second</li>\n</ol>",HTML
+"<dl>\n<dt>Term</dt>\n<dd>Definition</dd>\n</dl>",HTML
+"<blockquote>Quoted text</blockquote>",HTML
+"<pre>Preformatted text</pre>",HTML
+"<code>print('hello')</code>",HTML
+"<nav>\n<a href='/'>Home</a>\n<a href='/about'>About</a>\n</nav>",HTML
+"<article>\n<h2>Article Title</h2>\n<p>Content</p>\n</article>",HTML
+"<figure>\n<img src='image.jpg'>\n<figcaption>Caption</figcaption>\n</figure>",HTML
+"<mark>Highlighted</mark>",HTML
+"<small>Small text</small>",HTML
+"<sub>Subscript</sub> and <sup>Superscript</sup>",HTML
+"<input type='checkbox' name='agree'>",HTML
+"<input type='radio' name='option' value='1'>",HTML
+"<input type='range' min='0' max='100'>",HTML
+"<input type='date'>",HTML
+"<input type='color'>",HTML
+"<input type='file' accept='image/*'>",HTML
+"<progress value='70' max='100'></progress>",HTML
+"<meter value='0.6'></meter>",HTML
+"<details>\n<summary>Click to expand</summary>\nContent here\n</details>",HTML
+"<dialog open>\n<p>Dialog content</p>\n</dialog>",HTML
